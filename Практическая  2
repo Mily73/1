@@ -1,0 +1,38 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ЧебурашкаГена
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int mark = int.Parse(Console.ReadLine());
+            switch (mark)
+            {
+                case 1:
+                    Console.WriteLine("Плохо");
+                    break;
+                case 2:
+                    Console.WriteLine("Неудовлетворительно");
+                    break;
+                case 3:
+                    Console.WriteLine("Удовлетворительно");
+                    break;
+                case 4:
+                    Console.WriteLine("Хорошо");
+                    break;
+                case 5:
+                    Console.WriteLine("Отлично");
+                    break;
+
+                default: Console.WriteLine("Ошибка");
+                    break;
+            }
+            Console.ReadKey();
+        }
+    }
+}
